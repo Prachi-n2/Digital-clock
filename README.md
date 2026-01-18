@@ -3,6 +3,15 @@ A concise README.md for the PyQt5 digital clock program with install, run, usage
 
 Simple desktop digital clock built with PyQt5. Displays current time (AM/PM) using a custom 7-seg style font.
 
+## File
+- Main script: `digital%20clock%20program.py`  
+  Recommended: rename to `digital_clock_program.py` (remove spaces/percent-encoding).
+
+## Requirements
+- Python 3.8+
+- `PyQt5` package
+- Optional: `DS-DIGIT.TTF` font (placed next to the script)
+
 # Run
 From the project folder (PowerShell):
 .\.venv\Scripts\Activate
@@ -30,15 +39,6 @@ Window too small/large: adjust setGeometry(...) or make layout responsive.
 
 # Contributing
 Small, focused changes welcome. Test on Windows (PowerShell) and prefer safe filenames (no spaces).
-
-## File
-- Main script: `digital%20clock%20program.py`  
-  Recommended: rename to `digital_clock_program.py` (remove spaces/percent-encoding).
-
-## Requirements
-- Python 3.8+
-- `PyQt5` package
-- Optional: `DS-DIGIT.TTF` font (placed next to the script)
 
 ## Install (Windows / PowerShell)
 ```powershell
